@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull the code from your GitHub repo
-                git branch: 'main', url: 'git@github.com:yourusername/myproject.git'
+                git branch: 'main', url: 'git@github.com:chandregowdahn/project-root.git'
             }
         }
 
