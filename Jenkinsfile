@@ -3,14 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB = credentials('dockerhub-creds')  // ID from Jenkins credentials
-        IMAGE = "yourdockerhubusername/myproject"
-    }
-
-    stages {
-        stage('Checkout') {
-            steps {
-                // Pull the code from your GitHub repo
-                git branch: 'main', url: 'git@github.com:chandregowdahn/project-root.git'
+        IMAGE = "yourdockerhubusername/myprojecti    git branch: 'main', url: 'git@github.com:chandregowdahn/project-root.git'
             }
         }
 
@@ -46,3 +39,4 @@ pipeline {
         }
     }
 }
+
